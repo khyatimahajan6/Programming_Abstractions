@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class NQueens {
+class nqueen {
     public List<List<String>> solveNQueens(int n) {
         
         List<List<String>> ans = new ArrayList<>();

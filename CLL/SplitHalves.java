@@ -1,3 +1,5 @@
+package CLL;
+
 
 public class SplitHalves {
     static class Node {
@@ -47,7 +49,7 @@ public class SplitHalves {
         head.next = new Node(2);
         head.next.next = new Node(3);
         head.next.next.next = new Node(4);
-        head.next.next.next.next = head; // Making it circular
+        head.next.next.next.next = head; 
 
         splitList(head);
     }

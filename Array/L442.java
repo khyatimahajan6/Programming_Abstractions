@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindAllDuplicates {
+public class L442 {
     class Solution {
         public List<Integer> findDuplicates(int[] nums) {
             List<Integer> list=new ArrayList<>();

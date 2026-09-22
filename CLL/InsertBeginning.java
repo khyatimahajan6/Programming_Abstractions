@@ -1,3 +1,4 @@
+package CLL;
 
 public class InsertBeginning {
     static class Node {

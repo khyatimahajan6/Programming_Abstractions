@@ -1,5 +1,5 @@
 
-public class FindFirstAndLastPositionInSortedArray {
+public class fo {
     
     public int[] searchRange(int[] nums, int target) {
         int[] result = {-1, -1};

@@ -1,3 +1,4 @@
+package CLL;
 
 public class SearchElement {
     static class Node {
@@ -23,7 +24,7 @@ public class SearchElement {
         Node head = new Node(1);
         head.next = new Node(2);
         head.next.next = new Node(3);
-        head.next.next.next = head; // Making it circular
+        head.next.next.next = head; 
 
         boolean found = search(head, 2);
         System.out.println("Element found: " + found);

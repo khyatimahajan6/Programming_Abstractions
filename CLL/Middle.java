@@ -1,3 +1,4 @@
+package CLL;
 
 
 public class Middle {
@@ -28,7 +29,6 @@ public class Middle {
         newNode.next = head;
     }
 
-    // Uses Slow and Fast pointer approach
     static void findMiddle() {
         if (head == null) return;
 

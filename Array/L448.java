@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindDisappearNumber {
+public class L448 {
     class Solution {
         public List<Integer> findDisappearedNumbers(int[] nums) {
             List<Integer> list=new ArrayList<>();

@@ -1,4 +1,4 @@
-
+package CLL;
 public class FindMax {
     static class Node {
         int val;

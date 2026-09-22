@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Permuataion {
+public class permut {
     
     static void permute(int[] arr, ArrayList<Integer> list, boolean[] used) {
         if(list.size() == arr.length) {

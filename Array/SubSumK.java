@@ -1,6 +1,6 @@
 
 
-public class CountSubArray {
+public class SubSumK {
     public static int countSubArray(int[] arr,int k){
         
         int left=0,sum=0,count=0;

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Main {
+class subsets {
 
     static void subseq(int[] arr, int index, ArrayList<Integer>list) {
         if(index==arr.length) {

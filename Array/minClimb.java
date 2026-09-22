@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class MinCostClimbingStairs {
+public class minClimb {
 
     public static int minCostClimbingStairs(int[] cost) {
         return Math.min( solve(cost,0) ,  solve(cost,1));

@@ -1,4 +1,4 @@
-public class SortColors {
+public class LC75 {
     
     public void sortColors(int[] nums) {
         int low = 0;
